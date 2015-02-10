@@ -1,0 +1,39 @@
+{* Antispam Plugin *}
+
+{$menu}
+
+<div class="clearfix" style="margin-bottom: 20px;">
+    <div class="ow_left">
+        <img src="{$logo}" width="180" height="49" style="margin-left: 60px;"/>
+    </div>
+</div>
+
+<div class="clearfix">
+    <div class="ow_column ow_left ow_std_margin">
+        <table class="ow_table_4">
+            <tr>
+                <td class="ow_td_label" style="width: 50%; vertical-align: middle">{text key='watchdog+count_spam_attempt_text'}</td>
+                <td class="ow_value ow_left_border" style="text-align: left">{$configs.count_spam_attempt}</td>
+            </tr>
+            <tr>
+                <td colspan="2">&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="ow_td_label" style="text-align: right; vertical-align: middle">{text key='watchdog+count_black_list'}</td>
+                <td class="ow_value ow_left_border" style="text-align: left">{$configs.count_black_list}</td>
+            </tr>
+            <tr>
+                <td class="ow_td_label" style="text-align: right; vertical-align: middle">{text key='watchdog+count_email_list'}</td>
+                <td class="ow_value ow_left_border" style="text-align: left">{$configs.count_email_list}</td>
+            </tr>
+            <tr>
+                <td class="ow_td_label" style="text-align: right; vertical-align: middle">{text key='watchdog+last_updated'}</td>
+                <td class="ow_value ow_left_border" style="text-align: left">{$configs.time_update_database}</td>
+            </tr>
+        </table>
+    </div>
+</div>
+
+<div class="ow_anno ow_std_margin ow_nocontent">
+    {text key='watchdog+about_watchdog'}
+</div>

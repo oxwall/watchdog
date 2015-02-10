@@ -1,0 +1,15 @@
+
+.ow_left_border
+{
+    float: left;
+    border-left: 1px solid #CCCCCC;
+    margin: 3px 0;
+}
+
+.ow_td_label
+{
+    width: 50%;    
+    color: #666666;
+    text-align: right;
+    vertical-align: middle;
+}
